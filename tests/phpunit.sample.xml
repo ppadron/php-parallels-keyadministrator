@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<phpunit colors="false">
+    <php>
+        <const name="PARALLELS_KA_USER" value=""/>
+        <const name="PARALLELS_KA_PASS" value=""/>
+        <const name="PARALLELS_KA_URL"  value=""/>
+    </php>
+    <logging>
+        <log type="coverage-html" target="" charset="UTF-8" yui="true" highlight="true"/>
+        <log type="testdox-html" target=""/>
+    </logging>
+</phpunit>
